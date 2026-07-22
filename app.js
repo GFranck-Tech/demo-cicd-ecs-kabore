@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello depuis ECS Fargate ! Déploiement via pipeline CI/CD.');
+  res.send('Hello depuis ECS Fargate ! Nouvelle version deployee automatiquement.');
 });
 
 app.get('/health', (req, res) => {
